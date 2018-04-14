@@ -15,6 +15,6 @@ public class UserConvertImpl implements UserConvert{
 
     @Override
     public UserDTO toDto(User entity) {
-        return null;
+        return new UserDTO(entity.getFirstName(),entity.getLastName(),entity.getAge());
     }
 }
