@@ -8,13 +8,40 @@ import com.skillsup.services.UserServices;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.Buffer;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ApplicationContext applicationContext = new GenericXmlApplicationContext("context-main.xml");
         UserServices userServices = applicationContext.getBean(UserServices.class);
-        UserDTO userDTO = new UserDTO(args[0],args[1],Integer.parseInt(args[2]));
-        userServices.create(userDTO);
-        UserDAOImpl userDAO = applicationContext.getBean(UserDAOImpl.class);
-        System.out.println(userDAO.getUserMap().get(1L  ));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        boolean result = true;
+        while (result){
+            String line = reader.readLine();
+            args = line.split(" ");
+            switch (args[0]){
+                case "C":
+                    UserDTO userDTO = new UserDTO(args[1],args[2],Integer.parseInt(args[3]));
+                    userServices.create(userDTO);
+                    break;
+                case "L":
+                    UserDAOImpl userDAO = applicationContext.getBean(UserDAOImpl.class);
+                    System.out.println(userDAO.findAll());
+                    break;
+                default:
+                    if(line.equals("exit")){
+                        result = false;
+                        System.out.println("go out");
+                    }else{
+                        System.out.println("НЕПОНЯТНО");
+                    }
+            }
+        }
+
+
     }
 }
