@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d0eda1-a35c-4781-b222-b47d6c4c5929" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/model/User.java" afterPath="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java" afterPath="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java" afterPath="$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,19 +19,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="5">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -56,10 +52,11 @@
       <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="296">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
               </folding>
             </state>
@@ -104,8 +101,8 @@
         <option value="$PROJECT_DIR$/DAO/src/main/resources/context-dao.xml" />
         <option value="$PROJECT_DIR$/Services/src/main/resources/context-services.xml" />
         <option value="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java" />
         <option value="$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/model/User.java" />
+        <option value="$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java" />
       </list>
     </option>
   </component>
@@ -819,17 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -838,20 +824,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/main/java/com/skillsup/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>

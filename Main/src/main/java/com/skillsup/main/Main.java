@@ -15,6 +15,6 @@ public class Main {
         UserDTO userDTO = new UserDTO(args[0],args[1],Integer.parseInt(args[2]));
         userServices.create(userDTO);
         UserDAOImpl userDAO = applicationContext.getBean(UserDAOImpl.class);
-        System.out.println(userDAO.getUserMap().get(1L));
+        System.out.println(userDAO.getUserMap().get(1L  ));
     }
 }
