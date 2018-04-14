@@ -9,6 +9,16 @@ public class User {
     public User() {
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", id=" + id +
+                '}';
+    }
+
     public User(String firstName, String lastName, int age, Long id) {
         this.firstName = firstName;
         this.lastName = lastName;

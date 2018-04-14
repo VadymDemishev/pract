@@ -17,4 +17,8 @@ public class UserDAOImpl implements UserDAO{
         user.setId(idGenerator++);
         userMap.put(user.getId(),user);
     }
+
+    public Map<Long, User> getUserMap() {
+        return userMap;
+    }
 }
