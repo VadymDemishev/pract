@@ -2,10 +2,12 @@ package com.skillsup.DAO.repo.impl;
 
 import com.skillsup.DAO.model.User;
 import com.skillsup.DAO.repo.UserDAO;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class UserDAOImpl implements UserDAO{
 
     private final Map<Long,User> userMap = new HashMap<>();

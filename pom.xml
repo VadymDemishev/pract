@@ -20,7 +20,33 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <springVersion>5.0.5.RELEASE</springVersion>
   </properties>
-
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>${springVersion}</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>${springVersion}</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+    <version>${springVersion}</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context-support</artifactId>
+    <version>${springVersion}</version>
+  </dependency>
+</dependencies>
 
 </project>

@@ -1,0 +1,5 @@
+com/skillsup/services/convert/impl/UserConvertImpl.class
+com/skillsup/services/impl/UserServiceImpl.class
+com/skillsup/services/DTO/UserDTO.class
+com/skillsup/services/UserServices.class
+com/skillsup/services/convert/UserConvert.class
