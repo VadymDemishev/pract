@@ -1,19 +1,17 @@
-package com.skillsup.DAO.model;
+package com.skillsup.services.DTO;
 
-public class User {
+public class UserDTO {
     private String firstName;
     private String lastName;
     private int age;
-    private Long id;
 
-    public User() {
+    public UserDTO() {
     }
 
-    public User(String firstName, String lastName, int age, Long id) {
+    public UserDTO(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.id = id;
     }
 
     public String getFirstName() {
@@ -38,13 +36,5 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }
