@@ -4,6 +4,7 @@ package com.skillsup.main;
 import com.skillsup.DAO.repo.UserDAO;
 import com.skillsup.DAO.repo.impl.UserDAOImpl;
 import com.skillsup.services.DTO.UserDTO;
+import com.skillsup.services.ProductService;
 import com.skillsup.services.UserServices;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
@@ -17,6 +18,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ApplicationContext applicationContext = new GenericXmlApplicationContext("context-main.xml");
         UserServices userServices = applicationContext.getBean(UserServices.class);
+        //UserServices productServices = applicationContext.getBean(ProductService.class);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         boolean result = true;

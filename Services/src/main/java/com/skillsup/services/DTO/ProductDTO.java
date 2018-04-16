@@ -1,38 +1,23 @@
-package com.skillsup.DAO.model;
+package com.skillsup.services.DTO;
 
-public class Product {
+public class ProductDTO {
     private String name;
     private String category;
     private String color;
     private String parameter;
     private int count;
     private int price;
-    private Long id;
 
-    public Product() {
+    public ProductDTO() {
     }
 
-    public Product(String name, String category, String color, String parameter, int count, int price, Long id) {
+    public ProductDTO(String name, String category, String color, String parameter, int count, int price) {
         this.name = name;
         this.category = category;
         this.color = color;
         this.parameter = parameter;
         this.count = count;
         this.price = price;
-        this.id = id;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", category='" + category + '\'' +
-                ", color='" + color + '\'' +
-                ", parameter='" + parameter + '\'' +
-                ", count=" + count +
-                ", price=" + price +
-                ", id=" + id +
-                '}';
     }
 
     public String getName() {
@@ -81,13 +66,5 @@ public class Product {
 
     public void setPrice(int price) {
         this.price = price;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }
