@@ -3,7 +3,9 @@ package com.skillsup.services.convert.impl;
 import com.skillsup.DAO.model.Product;
 import com.skillsup.services.DTO.ProductDTO;
 import com.skillsup.services.convert.ProductConvert;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProductConvertImpl implements ProductConvert {
 
     @Override

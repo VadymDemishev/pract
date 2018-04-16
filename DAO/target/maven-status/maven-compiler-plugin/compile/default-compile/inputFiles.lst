@@ -1,5 +1,7 @@
-/home/skillsup/IdeaProjects/pract/DAO/src/main/java/com/skillsup/DAO/model/Order.java
-/home/skillsup/IdeaProjects/pract/DAO/src/main/java/com/skillsup/DAO/model/User.java
-/home/skillsup/IdeaProjects/pract/DAO/src/main/java/com/skillsup/DAO/model/Product.java
-/home/skillsup/IdeaProjects/pract/DAO/src/main/java/com/skillsup/DAO/repo/UserDAO.java
-/home/skillsup/IdeaProjects/pract/DAO/src/main/java/com/skillsup/DAO/repo/impl/UserDAOImpl.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\repo\UserDAO.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\repo\impl\UserDAOImpl.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\model\User.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\repo\ProductDAO.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\model\Order.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\model\Product.java
+E:\pract\pract\DAO\src\main\java\com\skillsup\DAO\repo\impl\ProductDAOImpl.java

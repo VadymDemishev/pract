@@ -1,5 +1,7 @@
-com/skillsup/DAO/repo/UserDAO.class
-com/skillsup/DAO/model/Product.class
-com/skillsup/DAO/repo/impl/UserDAOImpl.class
-com/skillsup/DAO/model/User.class
-com/skillsup/DAO/model/Order.class
+com\skillsup\DAO\repo\ProductDAO.class
+com\skillsup\DAO\model\Product.class
+com\skillsup\DAO\model\User.class
+com\skillsup\DAO\repo\impl\UserDAOImpl.class
+com\skillsup\DAO\repo\impl\ProductDAOImpl.class
+com\skillsup\DAO\model\Order.class
+com\skillsup\DAO\repo\UserDAO.class

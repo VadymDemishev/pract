@@ -6,9 +6,12 @@ import com.skillsup.services.DTO.ProductDTO;
 import com.skillsup.services.ProductService;
 import com.skillsup.services.convert.ProductConvert;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class ProductServiceImpl implements ProductService{
     private final ProductDAO productDAO;
     private final ProductConvert productConvert;

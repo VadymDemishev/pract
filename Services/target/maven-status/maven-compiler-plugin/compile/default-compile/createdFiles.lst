@@ -1,5 +1,10 @@
-com/skillsup/services/convert/impl/UserConvertImpl.class
-com/skillsup/services/impl/UserServiceImpl.class
-com/skillsup/services/DTO/UserDTO.class
-com/skillsup/services/UserServices.class
-com/skillsup/services/convert/UserConvert.class
+com\skillsup\services\impl\ProductServiceImpl.class
+com\skillsup\services\convert\ProductConvert.class
+com\skillsup\services\ProductService.class
+com\skillsup\services\convert\impl\ProductConvertImpl.class
+com\skillsup\services\convert\impl\UserConvertImpl.class
+com\skillsup\services\UserServices.class
+com\skillsup\services\DTO\UserDTO.class
+com\skillsup\services\DTO\ProductDTO.class
+com\skillsup\services\impl\UserServiceImpl.class
+com\skillsup\services\convert\UserConvert.class
